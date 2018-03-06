@@ -1,0 +1,93 @@
+.sub-page {
+    overflow-x: hidden
+}
+
+.header-info {
+    overflow: hidden;
+    width: 94%;
+}
+
+.header-info .left {
+    width: 70%;
+    float: left;
+}
+
+.header-info img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.text {
+    float: left;
+    margin-left: 10px;
+}
+
+.text p {
+    margin-top: 5px
+}
+
+.text .right {
+    float: right;
+    width: 30%;
+}
+
+.text p {
+    margin-top: 5px
+}
+
+.text-con {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.text-con span {
+    display: block;
+    width: 100%
+}
+
+.sec-content {
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.sec-content .wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sec-content .vux-x-input {
+    line-height: 40px !important;
+    height: 40px !important
+}
+
+.vux-header .vux-header-title {
+    height: 45px !important;
+    line-height: 45px !important;
+}
+
+.username {
+    position: relative;
+}
+
+.username .xialaSelect {
+    position: absolute;
+    width: 100%;
+    max-height: 300px;
+    overflow: scroll;
+    background: #fff;
+    z-index: 200;
+    top: 60px;
+}
+
+.username ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc
+}
+
+.username ul li:nth-last-child(1) {
+    border: 0
+}
